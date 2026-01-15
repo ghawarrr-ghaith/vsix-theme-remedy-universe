@@ -1,0 +1,46 @@
+{
+    "name": "vsix-theme-remedy-universe",
+    "displayName": "Remedy Universe Themes",
+    "description": "A collection of VS Code themes inspired by games from Remedy Entertainment, including Control and Alan Wake.",
+    "version": "1.0.0",
+    "publisher": "verzi",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Alan Wake: The Writer",
+                "uiTheme": "vs-dark",
+                "path": "./themes/writer-color-theme.json"
+            },
+            {
+                "label": "Alan Wake: Dark Place",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-place-color-theme.json"
+            },
+            {
+                "label": "Control (Jesse Faden)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/jesse-faden-color-theme.json"
+            },
+            {
+                "label": "Control (Astral Plane)",
+                "uiTheme": "vs",
+                "path": "./themes/astral-plane-color-theme.json"
+            },
+            {
+                "label": "Control (Black Rock)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/black-rock-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/verzi/vsix-theme-remedy-universe"
+    }
+}

@@ -1,0 +1,95 @@
+{
+	"name": "Control (Astral Plane)",
+	"type": "light",
+	"colors": {
+		"editor.background": "#f4f4f4",
+		"editor.foreground": "#101010",
+		"activityBar.background": "#e0e0e0",
+		"activityBar.foreground": "#101010",
+		"activityBar.activeBorder": "#000000",
+		"sideBar.background": "#ececec",
+		"sideBar.foreground": "#101010",
+		"statusBar.background": "#E6E6E6",
+		"statusBar.foreground": "#000000",
+		"statusBar.border": "#e0e0e0",
+		"statusBar.debuggingBackground": "#FF4500",
+		"titleBar.activeBackground": "#e0e0e0",
+		"titleBar.activeForeground": "#000000",
+		"editorCursor.foreground": "#000000",
+		"editorLineNumber.foreground": "#a0a0a0",
+		"editorLineNumber.activeForeground": "#000000",
+		"editor.selectionBackground": "#00000015",
+		"editor.lineHighlightBackground": "#00000005",
+		"list.activeSelectionBackground": "#e0e0e0",
+		"list.activeSelectionForeground": "#000000",
+		"list.hoverBackground": "#00000008",
+		"input.background": "#ffffff",
+		"input.border": "#c0c0c0",
+		"inputOption.activeBorder": "#000000",
+		"focusBorder": "#000000"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Control Flow",
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "#cf0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#005070"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#303030"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#805000"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": "constant",
+			"settings": {
+				"foreground": "#cf0000"
+			}
+		},
+		{
+			"name": "Class",
+			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": "italic"
+			}
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"name": "Alan Wake: Dark Place",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#050505",
+		"editor.foreground": "#D0D0D0",
+		"activityBar.background": "#000000",
+		"activityBar.foreground": "#FF0080",
+		"sideBar.background": "#080808",
+		"sideBar.foreground": "#808080",
+		"statusBar.background": "#000000",
+		"statusBar.foreground": "#FF0080",
+		"titleBar.activeBackground": "#000000",
+		"editorCursor.foreground": "#FF0080",
+		"editorLineNumber.foreground": "#303030",
+		"editor.selectionBackground": "#FF008040",
+		"list.activeSelectionBackground": "#151515",
+		"list.activeSelectionForeground": "#FF0080"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#404040"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#FF0080",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#F0E000"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#E6E6E6"
+			}
+		}
+	]
+}

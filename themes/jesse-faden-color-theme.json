@@ -1,0 +1,114 @@
+{
+	"name": "Control (Remedy)",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#1c1c1c",
+		"editor.foreground": "#d6d6d6",
+		"activityBar.background": "#141414",
+		"activityBar.foreground": "#d6d6d6",
+		"activityBar.activeBorder": "#E30000",
+		"sideBar.background": "#181818",
+		"sideBar.foreground": "#d6d6d6",
+		"statusBar.background": "#B00000",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.debuggingBackground": "#FF4500",
+		"titleBar.activeBackground": "#141414",
+		"titleBar.activeForeground": "#d6d6d6",
+		"editorCursor.foreground": "#E30000",
+		"editorLineNumber.foreground": "#505050",
+		"editorLineNumber.activeForeground": "#E30000",
+		"editor.selectionBackground": "#E3000040",
+		"editor.lineHighlightBackground": "#ffffff08",
+		"list.activeSelectionBackground": "#D00000",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.hoverBackground": "#ffffff10",
+		"input.background": "#252525",
+		"input.border": "#505050",
+		"inputOption.activeBorder": "#E30000",
+		"focusBorder": "#E30000"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#505050"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#FF4500"
+			}
+		},
+		{
+			"name": "Control Flow",
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "#E30000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"foreground": "#FF4500"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#A0C0D0"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#d6d6d6"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#E0C090"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": "constant",
+			"settings": {
+				"foreground": "#FF8C00"
+			}
+		},
+		{
+			"name": "Class",
+			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "#d6d6d6",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "HTML Tag",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#E30000"
+			}
+		},
+		{
+			"name": "HTML Attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#A0C0D0"
+			}
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"name": "Alan Wake: The Writer",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#1A201A",
+		"editor.foreground": "#D0D0C0",
+		"activityBar.background": "#101510",
+		"activityBar.foreground": "#E0A040",
+		"sideBar.background": "#151A15",
+		"sideBar.foreground": "#A0B0A0",
+		"statusBar.background": "#202820",
+		"statusBar.foreground": "#E6E6E6",
+		"titleBar.activeBackground": "#101510",
+		"editorCursor.foreground": "#E0A040",
+		"editorLineNumber.foreground": "#405040",
+		"editor.selectionBackground": "#E0A04030",
+		"list.activeSelectionBackground": "#2A352A",
+		"list.activeSelectionForeground": "#E0A040"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#506050",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#E0A040",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#A0C0A0"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#F0F0E0"
+			}
+		}
+	]
+}

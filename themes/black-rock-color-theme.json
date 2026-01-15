@@ -1,0 +1,94 @@
+{
+	"name": "Control (Black Rock)",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#0a0a0a",
+		"editor.foreground": "#d0d0d0",
+		"activityBar.background": "#000000",
+		"activityBar.foreground": "#ffffff",
+		"activityBar.activeBorder": "#ffd700",
+		"sideBar.background": "#050505",
+		"sideBar.foreground": "#a0a0a0",
+		"statusBar.background": "#101010",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.border": "#303030",
+		"statusBar.debuggingBackground": "#d03000",
+		"titleBar.activeBackground": "#000000",
+		"titleBar.activeForeground": "#ffffff",
+		"editorCursor.foreground": "#ffd700",
+		"editorLineNumber.foreground": "#404040",
+		"editorLineNumber.activeForeground": "#ffd700",
+		"editor.selectionBackground": "#ffd70030",
+		"editor.lineHighlightBackground": "#ffffff08",
+		"list.activeSelectionBackground": "#202020",
+		"list.activeSelectionForeground": "#ffd700",
+		"list.hoverBackground": "#ffffff10",
+		"input.background": "#151515",
+		"input.border": "#404040",
+		"inputOption.activeBorder": "#ffd700",
+		"focusBorder": "#ffd700"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#505050"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#ffd700"
+			}
+		},
+		{
+			"name": "Control Flow",
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "#ffaa00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#d0d0d0"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#a0a0a0"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": "constant",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Class",
+			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "#ffd700",
+				"fontStyle": "underline"
+			}
+		}
+	]
+}
